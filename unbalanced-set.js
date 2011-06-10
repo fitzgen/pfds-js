@@ -35,7 +35,7 @@ define(function () {
 
             insert: function insert (x, t) {
                 if ( t === empty ) {
-                    return new Tree();
+                    return new Tree(empty, x, empty);
                 } else {
                     var left = t._left,
                         el   = t._el,
