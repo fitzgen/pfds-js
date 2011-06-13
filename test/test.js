@@ -15,7 +15,7 @@ require([
 ], function () {
 
     require.ready(function () {
-        require(["test-red-black"]);
+        require(["test-red-black", "test-leftist-heap"]);
     });
 
 });
